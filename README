@@ -1,0 +1,31 @@
+--- LEGAL STUFF ---
+
+My code (index.php) is provided under a Creative Commons Attribution license
+(for details please see: http://creativecommons.org/licenses/by/3.0/). In
+summary, you are free to use the code for any purpose as long as you remember
+to mention my name (Torben Sko) at some point. Also please note that my code
+is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE WARRANTY OF
+DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+Also provided in this Git repository is the Zend Gdata library found within
+the 'library' folder. It is provided under a New BSD licence (for details,
+please see: http://framework.zend.com/license/new-bsd).
+
+--- PURPOSE ---
+
+This code allows you to view all the comments for a particular YouTube video.
+Unlike the comments page on YouTube, this system provides precise tiemstamps
+for each comment. This code was written to help me examine whether the public
+reaction to certain videos changed over time
+
+--- SETTING UP ---
+
+1. To run the script locally, move the repo files into a folder served up by
+your local server, such as /Library/WebServer/Documents on OSX
+
+2. Lauch your web browser and navigate to the index.php via your local server
+(i.e. make sure your URL starts with "http:" not "file:"). For example, if
+placed in a folder called youtube_fetch, navigate to:
+http://localhost/youtube_fetch
+
+3. Once open the use of the system should be pretty obvious
